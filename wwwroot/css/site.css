@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
 html {
   font-size: 14px;
 }
@@ -15,4 +23,57 @@ html {
 
 body {
   margin-bottom: 60px;
+  overflow: hidden;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    z-index: 111;
+    line-height: 80px;
+}
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size:70px;
+    color: #7f00ff;
+}
+.navItems {
+    display: flex;
+
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px 0 50px;
+    text-align: left;
+}
+.navItems li a{
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #3d535f;
+}
+
+.navItems li:hover a,
+.links a:hover ion-icon
+{
+    color:#7f00ff;
+}
+
+.links{
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.links ion-icon{
+    color: #3d535f;
 }
