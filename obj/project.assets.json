@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kiril\\Desktop\\PizzaShop\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "projectUniqueName": "C:\\Users\\kiril\\Desktop\\Repos\\MyPortfolio\\MyPortfolio.csproj",
       "projectName": "MyPortfolio",
-      "projectPath": "C:\\Users\\kiril\\Desktop\\PizzaShop\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "projectPath": "C:\\Users\\kiril\\Desktop\\Repos\\MyPortfolio\\MyPortfolio.csproj",
       "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kiril\\Desktop\\PizzaShop\\MyPortfolio\\MyPortfolio\\obj\\",
+      "outputPath": "C:\\Users\\kiril\\Desktop\\Repos\\MyPortfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
