@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MyPortfolio.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 <body>
     <header>
@@ -26,13 +28,41 @@
                 </div>
             </nav>
         </div>
-
     </header>
+    <div class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">Hello</span>
+            <h1>I'm <span class="multiText"></span></h1>
+            <p>Тут что-то ещё должно быть написано.</p>
+            <div class="btns">
+                <button>Download CV</button>
+                <button>Hire me</button>
+            </div>
+        </div>
+
+        <div class="cols cols1">
+            <div class="imgBox">
+                <img src="/image/splash.png" id="splash" />
+                <img src="/image/Me.png" id="Me" />
+            </div>
+        </div>
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".multiText",{
+            strings: ["Coder", "Student", "FullStack Developer"],
+            typeSpeed: 120,
+            backSpeed: 100, 
+            backDelay: 1500,
+            loop: true
+        })
+    </script>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
