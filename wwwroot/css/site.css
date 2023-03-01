@@ -6,6 +6,12 @@
     font-family: 'poppins', sans-serif;
 }
 
+.container{
+    width: 100%;
+    min-height: 100vh;
+    margin-left: 0;
+}
+
 html {
   font-size: 14px;
 }
@@ -81,7 +87,7 @@ b{
 
 .wrapper{
     display: flex;
-    width: 100%;
+    width: 175%;
     height: 85vh;
     align-items: center;
     align-content: center;
@@ -208,14 +214,14 @@ button {
     height: 100%;
     width: calc(130%-80px);
     top: -100%;
-    right: 50px;
+    right: 30px;
     animation: animateUser 3s linear infinite;
 }
 
 @keyframes animateUser{
     50%{
-        right: 30px;
-        margin-top: 30px;   
+        right: 20px;
+        margin-top: 20px;   
     }
 }
 
@@ -231,8 +237,7 @@ button {
 
 @keyframes animateSplash {
     50% {
-        top: 48%;
-        left: 52%;
-        width: 155%;
+        top: 49%;
+        left: 51%;
     }
 }

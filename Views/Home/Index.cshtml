@@ -2,6 +2,33 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+<div class="container">
+    <div class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">Hello</span>
+            <h1>I'm <span class="multiText"></span></h1>
+            <p>Тут что-то ещё должно быть написано.</p>
+            <div class="btns">
+                <button>Download CV</button>
+                <button>Hire me</button>
+            </div>
+        </div>
 
+        <div class="cols cols1">
+            <div class="imgBox">
+                <img src="/image/SplashPurple.png" id="splash" />
+                <img src="/image/Me.png" id="Me" />
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".multiText", {
+            strings: ["Coder", "Student", "FullStack Developer"],
+            typeSpeed: 120,
+            backSpeed: 100,
+            backDelay: 1500,
+            loop: true
+        })
+    </script>
 </div>
