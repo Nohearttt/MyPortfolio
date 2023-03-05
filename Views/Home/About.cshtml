@@ -1,3 +1,29 @@
 ﻿@{
     ViewData["Title"] = "About Me";
 }
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<body>
+    <div class="wrapperAbout">
+        <div class="col2">
+            <div>
+                <h2>About Me</h2>
+            </div>
+            <div class="aboutMe">
+                <span class="multiTextAbout"></span>
+                <script>
+                    var typed = new Typed(".multiTextAbout", {
+                        strings: ["", "Здравствуйте. Меня зовут Кирилл, я студент 1 курса высшего учреждения. Учусь на специальность 'Прикладная информатика' (заочно). Имеется среднее профессиональное образование на специальность 'Администратор баз данных'. Параллельно учебы устроился работать на FullStack - разработчика. Увлекаюсь в свободное время спортом, разрабатываю для себя новые проекты, как в ASP.NET (разработка сайтов), так и в Unity (разработка игр). Стремлюсь получать новые знания, а старые закреплять. Одна из моих мечт, переехать в Екатеринбург за новыми знаниями, за новой работой для того, чтобы двигаться вперед и не стоять на месте. Буду рад рассмотреть ваши предложения!"],
+                        typeSpeed: 20,
+                        onComplete: true,
+                        loop: true
+                    })
+                </script>
+            </div>
+        </div>
+        <div class="col3">
+            <div class="imgBoxAbout">
+                <img class="meImgAbout" src="/image/Me2.jpg" />
+            </div>
+        </div>
+    </div>
+</body>

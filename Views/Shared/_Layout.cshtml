@@ -8,36 +8,33 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MyPortfolio.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <meta name="viewport" content="width=1200"/> 
 
 </head>
-<body>
-    <header>
-        <div class="container-fluid">
-            <nav>
-                <div class="logo">folio<b>.</b></div>
-                <ul class="navItems">
-                    <li><a class="" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a class="" asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a class="" asp-area="" asp-controller="Home" asp-action="Skills">Skills</a></li>
-                    <li><a class="" asp-area="" asp-controller="Home" asp-action="Blog">Blog</a></li>
-                </ul>
-                <div class="links">
-                    <a href="mailto:https://mail.google.com/mail/u/1/#inbox"><ion-icon name="mail-outline"></ion-icon></a>
-                    <a href="https://t.me/NoheartIT"><ion-icon name="chatbubble-outline"></ion-icon></a>
-                    <a href="https://www.instagram.com/kirill.ashihmin/?next=%2F"><ion-icon name="logo-instagram"></ion-icon></a>
-                </div>
-            </nav>
-        </div>
-    </header>
+<body> 
+    <div class="container1">
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a class="" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a class="" asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                <li><a class="" asp-area="" asp-controller="Home" asp-action="Skills">Skills</a></li>
+            </ul>
+            <div class="links">
+                <a href="mailto:https://mail.google.com/mail/u/1/#inbox"><ion-icon name="mail-outline"></ion-icon></a>
+                <a href="https://t.me/NoheartIT"><ion-icon name="chatbubble-outline"></ion-icon></a>
+                <a href="https://www.instagram.com/kirill.ashihmin/?next=%2F"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </nav>
+    </div>
     
-    <div class="container">
+    <div class="container1">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

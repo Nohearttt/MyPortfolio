@@ -1,34 +1,34 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="container">
-    <div class="wrapper">
-        <div class="cols cols0">
-            <span class="topline">Hello</span>
-            <h1>I'm <span class="multiText"></span></h1>
-            <p>Тут что-то ещё должно быть написано.</p>
-            <div class="btns">
-                <button>Download CV</button>
-                <button>Hire me</button>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<body>
+    <div class="container1">
+        <div class="wrapper">
+            <div class="cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>Благодарю за посещение моего портфолио! Если вы хотите связаться со мной, то вам необходимо выбрать любой способ связи, приведенный в верхнем правом углу портфолио.</p>
+                <div class="btns">
+                    <button type="submit" onclick="location.href='https://career.habr.com/noheart1/print.pdf'">Download CV</button>
+                    <button onclick="copyNumber()">Call Me</button>
+                </div>
+            </div>
+            <div class="cols1">
+                <div class="imgBox">
+                    <img class="splashImg" src="/image/SplashPurple.png"/>
+                    <img class="meImg" src="/image/Me.png" />
+                </div>
             </div>
         </div>
-
-        <div class="cols cols1">
-            <div class="imgBox">
-                <img src="/image/SplashPurple.png" id="splash" />
-                <img src="/image/Me.png" id="Me" />
-            </div>
-        </div>
+        <script>
+            var typed = new Typed(".multiText", {
+                strings: ["Coder", "Student", "FullStack Developer"],
+                typeSpeed: 120,
+                backSpeed: 100,
+                backDelay: 1500,
+                loop: true
+            })
+        </script>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        var typed = new Typed(".multiText", {
-            strings: ["Coder", "Student", "FullStack Developer"],
-            typeSpeed: 120,
-            backSpeed: 100,
-            backDelay: 1500,
-            loop: true
-        })
-    </script>
-</div>
+</body>

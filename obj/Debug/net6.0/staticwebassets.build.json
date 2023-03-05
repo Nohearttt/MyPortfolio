@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "5kCZrQtvtXxIFEzKvJ/XBAopMYWdT31E+IqZaX1pvuA=",
+=======
+  "Hash": "lGCUaVUS9C8ZHAo8uQ9xAT2erE9nW1wFjeO9om1XnFA=",
+>>>>>>> e479c71ed2c159d37b769e9263166b9d61730522
   "Source": "MyPortfolio",
   "BasePath": "_content/MyPortfolio",
   "Mode": "Default",
@@ -85,6 +89,26 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\kiril\\Desktop\\Repos\\MyPortfolio\\wwwroot\\files\\portfolio.pdf",
+      "SourceId": "MyPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kiril\\Desktop\\Repos\\MyPortfolio\\wwwroot\\",
+      "BasePath": "_content/MyPortfolio",
+      "RelativePath": "files/portfolio.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\portfolio.pdf"
+    },
+    {
+>>>>>>> e479c71ed2c159d37b769e9263166b9d61730522
       "Identity": "C:\\Users\\kiril\\Desktop\\Repos\\MyPortfolio\\wwwroot\\image\\Me.png",
       "SourceId": "MyPortfolio",
       "SourceType": "Discovered",
